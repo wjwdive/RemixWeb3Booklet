@@ -7,26 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "count",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "dec",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "get",
 				"outputs": [
 					{
@@ -40,7 +20,26 @@
 			},
 			{
 				"inputs": [],
-				"name": "inc",
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -59,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"2FirstApp/Counter.sol": "Counter"
+			"7ReadingAndWritingToAStateVariable/ReadWrite.sol": "SimpleStorage"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -73,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"2FirstApp/Counter.sol": {
-			"keccak256": "0xe19ee98b73cc63b4084d0ad825a9eab8502a8ff4dbb2f26714e255558f0bcfa1",
+		"7ReadingAndWritingToAStateVariable/ReadWrite.sol": {
+			"keccak256": "0x0451476727694dfbc61dc95068cf76ce1b185b7cd6ed631f749e8fcd379ef7cb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://252036c1dac5c8e035888e9ee52a5f254de4913bde1589b6a937c9938b9def3c",
-				"dweb:/ipfs/QmV1Lrbi49sqvFxbRH64DbU9YXHLWisf39eUQ4kqiRCV4t"
+				"bzz-raw://984a59f79f00f1d3a27dcddf0b38aa280a926cbba54258cf1c112675b5e41211",
+				"dweb:/ipfs/QmP63ozc4E6Q4bt6PKhS8F8TmdtLvgF9RYJCWfwzNCc3gf"
 			]
 		}
 	},

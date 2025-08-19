@@ -7,7 +7,14 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "count",
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,29 +27,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "dec",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get",
+				"name": "text",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "inc",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -54,12 +47,13 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "三种不同的变量：   1、本地变量，local, 声明在一个函数中，不会存储在区块链上   2、状态变量，state，声明在一个函数外，存储在区块链上   3、全局，global, 提供关于区块链的信息",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"2FirstApp/Counter.sol": "Counter"
+			"4Variables/variables.sol": "Variables"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -73,12 +67,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"2FirstApp/Counter.sol": {
-			"keccak256": "0xe19ee98b73cc63b4084d0ad825a9eab8502a8ff4dbb2f26714e255558f0bcfa1",
+		"4Variables/variables.sol": {
+			"keccak256": "0xd51f0b69def1cec4266100a90b5164eb4ea4b287426b18c6d3e989e0a7f13390",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://252036c1dac5c8e035888e9ee52a5f254de4913bde1589b6a937c9938b9def3c",
-				"dweb:/ipfs/QmV1Lrbi49sqvFxbRH64DbU9YXHLWisf39eUQ4kqiRCV4t"
+				"bzz-raw://ccb44e38958d408d4d21660adc20e99e6ac29e53ff84bedf38fc5351a87c38ea",
+				"dweb:/ipfs/QmSG3WcFVPtCpEN4eqMVkN17yXTUY8kVNci5qyAwEHjf2e"
 			]
 		}
 	},

@@ -7,7 +7,14 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "count",
+				"name": "forever",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "i",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -16,33 +23,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "dec",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "inc",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -59,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"2FirstApp/Counter.sol": "Counter"
+			"9Gas/gas.sol": "BadGas"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -73,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"2FirstApp/Counter.sol": {
-			"keccak256": "0xe19ee98b73cc63b4084d0ad825a9eab8502a8ff4dbb2f26714e255558f0bcfa1",
+		"9Gas/gas.sol": {
+			"keccak256": "0xccf1c2d69603e69444d6b2a19c54c06a720ea282dca5bfe49c704df4a5bd502f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://252036c1dac5c8e035888e9ee52a5f254de4913bde1589b6a937c9938b9def3c",
-				"dweb:/ipfs/QmV1Lrbi49sqvFxbRH64DbU9YXHLWisf39eUQ4kqiRCV4t"
+				"bzz-raw://fcd1f076b7a1165f9ed5ae2aa1c1c8567d40d1bd1f68a6d67be013890bcd49ec",
+				"dweb:/ipfs/QmeW5keZ9fnrh1LBcTX9rwYpUpQmX6H3qpRjDZfPTWuRqa"
 			]
 		}
 	},

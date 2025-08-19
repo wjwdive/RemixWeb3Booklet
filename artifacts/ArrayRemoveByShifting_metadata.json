@@ -6,8 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "count",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -19,28 +25,21 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "dec",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "remove",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "get",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "inc",
+				"name": "test",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -59,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"2FirstApp/Counter.sol": "Counter"
+			"013Array/arrayRemoveByShifting.sol": "ArrayRemoveByShifting"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -73,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"2FirstApp/Counter.sol": {
-			"keccak256": "0xe19ee98b73cc63b4084d0ad825a9eab8502a8ff4dbb2f26714e255558f0bcfa1",
+		"013Array/arrayRemoveByShifting.sol": {
+			"keccak256": "0x48a6f6ba6d380e15e531e310a051991f9889ca268ae8315c2f82a9524a33c496",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://252036c1dac5c8e035888e9ee52a5f254de4913bde1589b6a937c9938b9def3c",
-				"dweb:/ipfs/QmV1Lrbi49sqvFxbRH64DbU9YXHLWisf39eUQ4kqiRCV4t"
+				"bzz-raw://fc2a831995ccf1f6f10ea4af928d0cd908f402bd9f66e7a21e1187ec3ed2fdb3",
+				"dweb:/ipfs/QmZbQAm7x3F8myQEyEEpsvADZgcaF9Xfup3rBU66GnU7Vb"
 			]
 		}
 	},

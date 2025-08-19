@@ -7,7 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "count",
+				"name": "MY_ADDRESS",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MY_UINT",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -16,33 +29,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "dec",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "inc",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -54,12 +40,13 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "常量/不可变量， 就是不可以更改的变量。例如硬编码，用常量记录汽油费",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"2FirstApp/Counter.sol": "Counter"
+			"5Constants/constants.sol": "Constants"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -73,12 +60,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"2FirstApp/Counter.sol": {
-			"keccak256": "0xe19ee98b73cc63b4084d0ad825a9eab8502a8ff4dbb2f26714e255558f0bcfa1",
+		"5Constants/constants.sol": {
+			"keccak256": "0x54a44531bde47dfd38cca24b84dd4537bb278f4ad0e4abb0c3c39a52c0d8ada0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://252036c1dac5c8e035888e9ee52a5f254de4913bde1589b6a937c9938b9def3c",
-				"dweb:/ipfs/QmV1Lrbi49sqvFxbRH64DbU9YXHLWisf39eUQ4kqiRCV4t"
+				"bzz-raw://d515e44aaafd2ea69cf13a32a9f48bbeff6bf83841051959461300fe9e59e142",
+				"dweb:/ipfs/QmTwiBRuh5iWYewL1i73k7sTT94gNLmHZHaCqQHbiz3GhS"
 			]
 		}
 	},
